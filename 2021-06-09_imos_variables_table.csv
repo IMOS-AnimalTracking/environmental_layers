@@ -1,6 +1,6 @@
 Variable,Platform,Temporal resolution,Units,Description,Source
 bathy,Composite raster product,-,meters,Australian Bathymetry and Topography Grid. 250 m resolution.,Geosciences Australia
-dist_to_land,Raster product,-,meters,Distance from nearest shoreline (in metres). Derived from the high-resolution Open Street Map shoreline product.,This package
+dist_to_land,Raster product,-,kilometers,Distance from nearest shoreline (in km). Derived from the high-resolution Open Street Map shoreline product.,This package
 rs_sst,Satellite-derived raster product,daily,degrees Celcius,1-day multi-swath multi-sensor (L3S) remotely sensed sea surface temperature (degrees Celcius) at 2 km resolution. Derived from the Group for High Resolution Sea Surface Temperature (GHRSST) ,IMOS
 rs_sst_interpolated,Raster product,daily,degrees Celcius,"1-day interpolated remotely sensed sea surface temperature (degrees Celcius) at 9 km resolution. Derived from the Regional Australian Multi-Sensor Sea surface temperature Analysis (RAMSSA, Beggs et al. 2010) system as part of the BLUElink Ocean Forecasting Australia project",IMOS
 rs_chl,Satellite-derived raster product,daily,mg.m-3,"Remotely sensed chlorophyll-a concentration (OC3 model). Derived from the MODIS Aqua satellite mission. Multi-spectral measurements are used to infer the concentration of chlorophyll-a, most typically due to phytoplankton, present in the water (mg.m-3).",IMOS
